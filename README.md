@@ -15,7 +15,7 @@ sudo apt install nodejs nginx
 sudo systemctl start nginx  
 sudo systemctl enable nginx  
 cd ~  
-wget https://raw.githubusercontent.com/solwynn/dchb/refs/heads/main/e2-micro-install.sh  
+wget https://raw.githubusercontent.com/kyogoi/dchb/refs/heads/main/e2-micro-install.sh  
 chmod +x e2-micro-install.sh  
 ./e2-micro-install.sh  
 sudo npm install pm2 -g  
