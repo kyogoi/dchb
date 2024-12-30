@@ -1,3 +1,11 @@
+## Via install script
+```cd ~
+wget https://raw.githubusercontent.com/solwynn/dchb/refs/heads/main/e2-micro-install.sh
+chmod +x e2-micro-install.sh
+./e2-micro-install.sh
+```
+
+
 ## Console output
 ```index.js --noisy=true```
 
