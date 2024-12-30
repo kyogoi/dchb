@@ -6,26 +6,29 @@
 <strong>If you're using a Google Cloud VM you will have to enable a network rule for TCP port 80</strong> 
 
 ## Via install script
-```
-sudo apt-get update
-sudo apt-get upgrade
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install nodejs nginx
-sudo systemctl start nginx
-sudo systemctl enable nginx
-cd ~
-wget https://raw.githubusercontent.com/solwynn/dchb/refs/heads/main/e2-micro-install.sh
-chmod +x e2-micro-install.sh
-./e2-micro-install.sh
-sudo npm install pm2 -g
-cd ~/dchb
-npm install```
 
+```sudo apt-get update  
+sudo apt-get upgrade  
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -  
+sudo apt install nodejs nginx  
+sudo systemctl start nginx  
+sudo systemctl enable nginx  
+cd ~  
+wget https://raw.githubusercontent.com/solwynn/dchb/refs/heads/main/e2-micro-install.sh  
+chmod +x e2-micro-install.sh  
+./e2-micro-install.sh  
+sudo npm install pm2 -g  
+cd ~/dchb  
+npm install
+```
+  
+  
 <strong>For daemonization:</strong>
 ```pm2 startup  
 run the line it gives you  
 pm2 start ~/dchb/index.js --name dchb  
-pm2 save```  
+pm2 save
+```  
   
 ## Manually  
 <strong>- Clone Github repo</strong>  
