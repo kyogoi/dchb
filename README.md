@@ -19,12 +19,11 @@ chmod +x e2-micro-install.sh
 ./e2-micro-install.sh
 sudo npm install pm2 -g
 cd ~/dchb
-npm install
-```
+npm install```
 
 <strong>For daemonization:</strong>
 ```pm2 startup  
-^ run the line it gives you  
+run the line it gives you  
 pm2 start ~/dchb/index.js --name dchb  
 pm2 save```  
   
