@@ -1,5 +1,5 @@
 ## Requirements  
-<strong>- Supabase setup with schema:</strong>
+<strong>- Supabase setup with schema:</strong>  
 ![](https://i.imgur.com/XyE0bSz.png)
 ![](https://i.imgur.com/cw2ErMU.png)  
   
