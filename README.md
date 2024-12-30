@@ -4,11 +4,18 @@
 
 ## Via install script
 ```
+sudo apt-get update
+sudo apt-get upgrade
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install nodejs nginx
+sudo systemctl enable nginx
 cd ~
 wget https://raw.githubusercontent.com/solwynn/dchb/refs/heads/main/e2-micro-install.sh
 chmod +x e2-micro-install.sh
 ./e2-micro-install.sh
+sudo npm install pm2 -g
+cd ~/dchb
+npm install
 ```
 
 ## Manually
