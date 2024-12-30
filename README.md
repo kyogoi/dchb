@@ -24,18 +24,20 @@ npm install
 
 <strong>For daemonization:</strong>
 ```pm2 startup  
-^ run the line it gives you
-pm2 start ~/dchb/index.js --name dchb
-pm2 save```
-
-## Manually
-<strong>- Clone Github repo</strong>
-<strong>- (Optional) Set up nginx reverse proxy</strong>  
+^ run the line it gives you  
+pm2 start ~/dchb/index.js --name dchb  
+pm2 save```  
+  
+## Manually  
+<strong>- Clone Github repo</strong>  
+<strong>- (Optional) Set up nginx reverse proxy</strong>   
 <strong>- Copy config.json.example -> config.json and populate</strong>    
-
-
+  
+  
 ## Console output
-```index.js --noisy=true```
+```
+index.js --noisy=true
+```
 
 ## Get Token
 
