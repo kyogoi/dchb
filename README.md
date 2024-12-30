@@ -1,9 +1,18 @@
+## Requirements  
+<strong>- Supabase setup with schema:</strong>
+![](https://i.imgur.com/cw2ErMU.png)
+
 ## Via install script
 ```cd ~
 wget https://raw.githubusercontent.com/solwynn/dchb/refs/heads/main/e2-micro-install.sh
 chmod +x e2-micro-install.sh
 ./e2-micro-install.sh
 ```
+
+## Manually
+<strong>- Clone Github repo</strong>
+<strong>- (Optional) Set up nginx reverse proxy</strong>  
+<strong>- Copy config.json.example -> config.json and populate</strong>    
 
 
 ## Console output
