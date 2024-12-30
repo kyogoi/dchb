@@ -3,7 +3,9 @@
 ![](https://i.imgur.com/cw2ErMU.png)
 
 ## Via install script
-```cd ~
+```
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+cd ~
 wget https://raw.githubusercontent.com/solwynn/dchb/refs/heads/main/e2-micro-install.sh
 chmod +x e2-micro-install.sh
 ./e2-micro-install.sh

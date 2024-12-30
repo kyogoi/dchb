@@ -18,8 +18,7 @@ echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     [ "$(( $(date +%s) - $(stat -c %Y /var/cache/apt/pkgcache.bin) ))" -gt 43200 ] && ((sudo apt-get update) && (sudo apt-get upgrade))
-    sudo apt-get install git nginx nano
-    curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+    sudo apt-get install git nginx nano  
     sudo apt install -y nodejs
     sudo systemctl enable nginx
     mkdir ~/dchb
