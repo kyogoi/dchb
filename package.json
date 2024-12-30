@@ -1,0 +1,15 @@
+{
+  "name": "discord-heartbeat-daemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.10",
+    "discord.js-selfbot-v13": "^3.4.6"
+  }
+}
