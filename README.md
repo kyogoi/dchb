@@ -1,5 +1,6 @@
 ## Requirements  
 <strong>- Supabase setup with schema:</strong>
+![](https://i.imgur.com/XyE0bSz.png)
 ![](https://i.imgur.com/cw2ErMU.png)  
   
 <strong>If you're using a Google Cloud VM you will have to enable a network rule for TCP port 80</strong> 
