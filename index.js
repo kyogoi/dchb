@@ -54,9 +54,10 @@ const web = http.createServer(async (req, res) => {
             .select('timestamp')
             .order('id', { ascending: false })
             .limit(1);
-            
+        
+        if (error) console.log(error);
         if (!error) res.write(data[0].timestamp.toString());
-
+        
         res.end();
     }
 });
