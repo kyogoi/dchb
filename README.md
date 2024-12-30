@@ -7,7 +7,8 @@
 
 ## Via install script
 
-```sudo apt-get update  
+```
+sudo apt-get update  
 sudo apt-get upgrade  
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -  
 sudo apt install nodejs nginx  
@@ -24,7 +25,8 @@ npm install
   
   
 <strong>For daemonization:</strong>
-```pm2 startup  
+```
+pm2 startup  
 run the line it gives you  
 pm2 start ~/dchb/index.js --name dchb  
 pm2 save
