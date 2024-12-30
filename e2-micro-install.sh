@@ -13,7 +13,7 @@ If you've decided to use a different port, change it before accepting this proce
 
 EOF
 
-read -p "Are you sure? " -n 1 -r
+read -p "Are you sure? [Y/N]" -n 1 -r
 echo    
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
