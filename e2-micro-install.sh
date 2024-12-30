@@ -21,7 +21,7 @@ then
     git clone https://github.com/solwynn/dchb ~/dchb
     sudo unlink /etc/nginx/sites-enabled/default
     sudo cp ~/dchb/conf/reverse-proxy.conf /etc/nginx/sites-available/reverse-proxy
-    sudo ln -s /etc/nginx/sites-available/reverse-proxy /etc/nginx/sites-enabled/
+    sudo cp /etc/nginx/sites-available/reverse-proxy /etc/nginx/sites-enabled/
     cp ~/dchb/config.json.example ~/dchb/config.json
     echo "Done! Be sure to update your token, port, and Supabase info in config.json"
 fi
