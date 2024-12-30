@@ -62,12 +62,8 @@ const web = http.createServer(async (req, res) => {
     }
 });
 
-async function main() {
-    supabase = createClient(config.supabase.url, config.supabase.key);
-    console.log("[DB] Connection active");
-    web.listen(config.port);
-    console.log("[Web] Listening on:", config.port);
-    client.login(config.discordToken);
-}
-
-main();
+supabase = createClient(config.supabase.url, config.supabase.key);
+console.log("[DB] Connection active");
+web.listen(config.port);
+console.log("[Web] Listening on:", config.port);
+client.login(config.discordToken);
